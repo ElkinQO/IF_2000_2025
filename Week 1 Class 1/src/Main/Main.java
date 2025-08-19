@@ -2,10 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package domain;
+package Main;
 
+import domain.Person;
 import java.util.Scanner;
 import logic.Ejecicios;
+
+/**
+ *
+ * @author oliva
+ */
+
 
 /**
  *
@@ -17,13 +24,14 @@ public class Main {
         Scanner sc = new Scanner (System.in);
         
         Ejecicios ejercicios =new Ejecicios();
-        
-        System.out.println("Ingrese un numero");
-        sc.nextInt();
-           
-        ejercicios.sunNum(1234);
+            Person p = new Person("Elkin", "Limoncito", "703210844","63440734", 18);
+            System.out.println(p);
+        //System.out.println("Ingrese un numero");
+        //sc.nextInt();
+        // / 
+       // ejercicios.sunNum(1234);
        // System.out.println(ejercicios.capicua(1221));
-        
     }
     
-}
+} 
+

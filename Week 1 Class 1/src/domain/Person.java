@@ -73,11 +73,11 @@ public class Person {
     @Override
     public String toString() {
         return "Person\n"
-                + "\name=" + getName()
-                + "\n, lastName=" + getLastName() 
-                + "\n, id=" + getId()
-                + "\n, phone=" + getPhone() 
-                + "\n, age=" + getAge();
+                + "\n Name= " + getName()
+                + "\n Last Name= " + getLastName() 
+                + "\n id = " + getId()
+                + "\n phone= " + getPhone() 
+                + "\n age= " + getAge();
     }
 
 }
