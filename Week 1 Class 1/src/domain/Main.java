@@ -4,16 +4,25 @@
  */
 package domain;
 
+import java.util.Scanner;
+import logic.Ejecicios;
+
 /**
  *
  * @author oliva
  */
 public class Main {
     public static void main (String args []){
-        Person person = new Person();
+       // Person person = new Person();
+        Scanner sc = new Scanner (System.in);
         
-        System.out.println(toString());
+        Ejecicios ejercicios =new Ejecicios();
         
+        System.out.println("Ingrese un numero");
+        sc.nextInt();
+           
+        ejercicios.sunNum(1234);
+       // System.out.println(ejercicios.capicua(1221));
         
     }
     
