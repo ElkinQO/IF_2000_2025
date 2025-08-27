@@ -14,7 +14,7 @@ public class Ejecicios {
     
     public Ejecicios() {
     }
-    
+    //agwergwergserg
 
     public boolean capicua(int n) {
         
