@@ -6,7 +6,7 @@ package Main;
 
 import domain.Person;
 import java.util.Scanner;
-import logic.Ejecicios;
+import logic.*;
 
 /**
  *
@@ -23,14 +23,21 @@ public class Main {
        // Person person = new Person();
         Scanner sc = new Scanner (System.in);
         
-        Ejecicios ejercicios =new Ejecicios();
-            Person p = new Person("Elkin", "Limoncito", "703210844","63440734", 18);
-            System.out.println(p);
+        //Ejecicios ejercicios =new Ejecicios();
+            //Person p = new Person("Elkin", "Limoncito", "703210844","63440734", 18);
+           // System.out.println(p);
         //System.out.println("Ingrese un numero");
         //sc.nextInt();
         // / 
        // ejercicios.sunNum(1234);
        // System.out.println(ejercicios.capicua(1221));
+       Ejecicios_Semana2_PracticaEnClase ej;
+        ej = new Ejecicios_Semana2_PracticaEnClase();
+       ej.ejercioA(5);
+    
+       
+      //  System..println("Ingrese su nombre");
+        
     }
     
 } 

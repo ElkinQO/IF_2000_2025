@@ -11,7 +11,7 @@ package logic;
 public class Ejecicios {
 
     
-    // Te amoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    
     public Ejecicios() {
     }
     
