@@ -33,7 +33,7 @@ public class Main {
        // System.out.println(ejercicios.capicua(1221));
        Ejecicios_Semana2_PracticaEnClase ej;
         ej = new Ejecicios_Semana2_PracticaEnClase();
-       ej.ejercioA(5);
+       ej.imprimirFiguraConCentro(10);
     
        
       //  System..println("Ingrese su nombre");

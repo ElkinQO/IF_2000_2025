@@ -35,14 +35,14 @@ public class Ejecicios_Semana2_PracticaEnClase {
 
     public void ejercioA(int n) {
 
-       for (int i = 1; i <= n; i++) {
-                System.out.println("*");
-                for (int j = 1; j <= n; j++) {
-                    System.out.print("* ");
-           }
-               // System.out.println(" * ");
+        for (int i = 1; i <= n; i++) {
+            System.out.println("*");
+            for (int j = 1; j <= n; j++) {
+                System.out.print("*     ");
+            }
+            // System.out.println(" * ");
 
-           /* for (int j = 1; j <= (n - i); j++) {
+            /* for (int j = 1; j <= (n - i); j++) {
                 System.out.print("");
 
             }
@@ -51,7 +51,22 @@ public class Ejecicios_Semana2_PracticaEnClase {
             }
             System.out.println("");
         }//endForExterno*/
-       } 
+        }
     }
-    
+
+    public void imprimirFiguraConCentro(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+
+                if (i == 1 || i == n || j == 1 || j == n) {
+                    System.out.print("* ");
+                } else if (i == n / 2 + 1 && j == n / 2 + 1) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
 }
